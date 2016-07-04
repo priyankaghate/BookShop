@@ -1,0 +1,9 @@
+<hr><h1><center>Welcome To Book Shop</center></h1><hr>
+<p><strong><center>
+<%=link_to "Add Book",controller: "books",action: "new", id: @book%>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<%=link_to "Books List", controller: "books", action: "index", id: @book%>
+</center></strong>
+<hr>
+</p>
+<center><%= image_tag("book.jpg", :alt => "One book is like hundred friends")%>
+</center>
